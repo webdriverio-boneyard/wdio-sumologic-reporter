@@ -69,5 +69,8 @@
     "wdio-reporter",
     "remote",
     "debugging"
+  ],
+  "contributors": [
+    "Christian Bromann <github@christian-bromann.com>"
   ]
 }
