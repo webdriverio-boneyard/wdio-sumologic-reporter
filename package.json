@@ -17,10 +17,15 @@
     "node": ">= 0.12.0"
   },
   "scripts": {
-    "test": "wdio ./test/wdio.conf.js"
+    "build": "grunt build",
+    "prepublish": "npm prune && npm run build",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "mocha --compilers js:babel-register --recursive tests/unit",
+    "test:integration": "wdio tests/integration/wdio.conf.js"
   },
   "dependencies": {
     "babel-runtime": "^6.11.6",
+    "dateformat": "^1.0.12",
     "deepmerge": "^0.2.10",
     "request": "^2.74.0"
   },
@@ -47,7 +52,7 @@
     "grunt-eslint": "^19.0.0",
     "grunt-npm": "0.0.2",
     "load-grunt-tasks": "^3.2.0",
-    "wdio-mocha-framework": "^0.4.0",
+    "wdio-mocha-framework": "^0.4.1",
     "wdio-spec-reporter": "0.0.3",
     "webdriverio": "^4.2.11"
   },
