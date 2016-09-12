@@ -12,7 +12,7 @@
     "url": "https://github.com/webdriverio/wdio-sumologic-reporter/issues"
   },
   "license": "MIT",
-  "main": "./build/index.js",
+  "main": "./build/reporter.js",
   "engines": {
     "node": ">= 0.12.0"
   },
