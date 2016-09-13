@@ -54,7 +54,7 @@
     "load-grunt-tasks": "^3.2.0",
     "wdio-mocha-framework": "^0.4.1",
     "wdio-spec-reporter": "0.0.3",
-    "webdriverio": "^4.2.11"
+    "webdriverio": "^4.2.14"
   },
   "tags": [
     "web",
