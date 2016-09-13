@@ -1,7 +1,7 @@
 {
   "name": "wdio-sumologic-reporter",
   "description": "A WebdriverIO plugin. Reporter that uploads results to Sumo Logic for statistical analyses",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "http://webdriver.io",
   "author": "Christian Bromann <christian@saucelabs.com>",
   "repository": {
